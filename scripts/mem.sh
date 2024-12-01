@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /home/rizki/build/rizki/dwmblocks/scripts/theme.sh
+source /home/rizki/build/dwmblocks/scripts/theme.sh
 
 mem_val=$(free -h | awk '/^Mem/ { print $3 }' | sed s/i//g)
 

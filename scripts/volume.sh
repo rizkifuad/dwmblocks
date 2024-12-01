@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /home/rizki/build/rizki/dwmblocks/scripts/theme.sh
+source /home/rizki/build/dwmblocks/scripts/theme.sh
 
 mute=$(pamixer --get-mute) # arch
 printf "%s%s" "$black" "$bg_red"

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /home/rizki/build/rizki/dwmblocks/scripts/theme.sh
+source /home/rizki/build/dwmblocks/scripts/theme.sh
 
 date_val=$(date '+%H:%M')
 printf "%s%s %s" "$black" "$bg_darkblue" "󱑆  "

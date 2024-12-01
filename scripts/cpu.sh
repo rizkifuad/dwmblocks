@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /home/rizki/build/rizki/dwmblocks/scripts/theme.sh
+source /home/rizki/build/dwmblocks/scripts/theme.sh
 
 cpu_val=$(grep -o "^[^ ]*" /proc/loadavg)
 
